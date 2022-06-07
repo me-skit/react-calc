@@ -2,6 +2,7 @@ import './App.css';
 import logo from './images/logo.png';
 import Button from './components/Button';
 import Display from './components/Display';
+import ClearButton from './components/ClearButton';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           <Button>/</Button>
         </div>
         <div className='row'>
+          <ClearButton>Clear</ClearButton>
         </div>
       </div>
     </div>
